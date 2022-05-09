@@ -1,0 +1,14 @@
+<body>
+    <script>
+        function action2(position){
+            let lat = position.coords.latitude;
+            let lng= position.coords.longitude;
+            alert(lat+''+lng);
+        }
+        navigator.geolocation.getCurrentPosition(action2);
+        function action(){
+            alert('실행완료!!');
+        }
+        setTimeout(action,15);
+    </script>
+</body>
