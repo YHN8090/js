@@ -1,0 +1,15 @@
+<body>
+    <script>
+      const p = new Promise((resolve,reject) => {
+       setTimeout(() => {
+           resolve('처리 완료 - 성공');
+       },2000);
+       });
+      
+      
+       p.then((res) => {
+           console.log(res);
+       });
+
+    </script>
+</body>
