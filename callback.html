@@ -3,12 +3,12 @@
         function action2(position){
             let lat = position.coords.latitude;
             let lng= position.coords.longitude;
-            alert(lat+''+lng);
+            alert(lat+' '+lng);
         }
         navigator.geolocation.getCurrentPosition(action2);
         function action(){
             alert('실행완료!!');
         }
-        setTimeout(action,15);
+        setTimeout(action,1500);
     </script>
 </body>
